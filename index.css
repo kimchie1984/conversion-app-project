@@ -1,0 +1,100 @@
+body {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+}
+
+
+h1,
+p,
+.text-area,
+input.input-field {
+    color: #fff;
+}
+
+
+.text-area,
+input.input-field {
+    background-color: transparent;
+}
+
+
+.wrapper {
+    margin: 50px;
+}
+
+
+input.input-field {
+    width: 112px;
+    height: 94px;
+    font-size: 50px;
+    text-align: center;
+    border-radius: 6px;
+    border: 2px solid #B295FF;
+    font-weight: 700;
+}
+
+
+input:focus {
+    border: 2px solid #B295FF;
+}
+
+.main-content {
+    width: 550px;
+    height: 270px;
+    background-color: #6943FF;
+    padding: 25px;
+}
+
+
+.text-area {
+    width: 120px;
+    height: 100px;
+    margin: 30px auto 20px auto;
+    border-radius: 5px;
+}
+
+
+.convert-button {
+    width: 125px;
+    padding: 10px 18px;
+    background-color: #ffffff;
+    border-radius: 6px;
+    border-style: none;
+    font-weight: medium;
+    transition: .5s ease;
+    font-size: 16px;
+}
+
+
+.convert-button:hover {
+    transform: scale(1.1)
+}
+
+
+.conversion-section {
+    background-color: #1F2937;
+    width: 550px;
+    padding: 25px;
+}
+
+
+article {
+    background-color: #273549;
+    padding: 7px 0;
+    margin: 20px 0;
+}
+
+h2 {
+    color: #CCC1FF;
+    font-size: 20px;
+}
+
+
+p {
+    font-size: 14px;
+}
