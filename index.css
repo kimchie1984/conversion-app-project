@@ -38,6 +38,11 @@ input.input-field {
     font-weight: 700;
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
 
 input:focus {
     border: 2px solid #B295FF;
@@ -55,7 +60,6 @@ input:focus {
     width: 120px;
     height: 100px;
     margin: 30px auto 20px auto;
-    border-radius: 5px;
 }
 
 
@@ -83,7 +87,7 @@ input:focus {
 }
 
 
-article {
+.conv-result {
     background-color: #273549;
     padding: 7px 0;
     margin: 20px 0;
